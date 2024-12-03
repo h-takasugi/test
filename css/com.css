@@ -8,13 +8,14 @@
   }
   body {width: 100%;
     background-color: transparent;
+    background-color: #444;  
     font-family: "貂ｸ繧ｴ繧ｷ繝�け菴�", YuGothic, "貂ｸ繧ｴ繧ｷ繝�け", "Yu Gothic", "繝｡繧､繝ｪ繧ｪ", sans-serif;
     font-size: 1.8rem;
     line-height: 1.5;
     letter-spacing: 0;
     font-weight: 400;
     text-align: left;
-    color:#615c61;
+    color:#fff;
   }
   .fc_pnk{color:#f67599; color:rgba(246,117,153,1.0);}/* PANTONE��17-1755 Paradise Pink */
   .fc_gly{color:#615c61; color:rgba(097,092,097,1.0);}/* PANTONE��18-3908 Volcanic Glass*/
