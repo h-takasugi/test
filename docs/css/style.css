@@ -1,0 +1,60 @@
+aside, #register {
+    position: relative;
+    }
+    aside::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: calc(50% - 50vw);
+    width: 100vw;
+    height: 100%;
+    background-color: #f1f0ec;
+    z-index: -1;
+    }
+    aside, #register, #quality, #faq {
+    max-width: 102.8rem;
+    }
+    #quality h3, #farming h3 {
+      margin-bottom: 2.4rem;
+      text-align: center;
+    }
+    #quality {
+      margin-bottom: 0;
+      padding-bottom: 1.2rem;
+    }
+    #farming {
+      padding-top: 1.2rem;
+    }
+    #farming section {
+      display: flex;flex-wrap: wrap;justify-content: space-between;
+      margin-top: 0.8rem;
+      text-align: center;
+    }
+    #farming h4 {
+      font-size: 1.8rem;
+    }
+    #farming dl {
+      width: 16.4rem;
+      height: 16.4rem;
+      margin: 0 auto 0.8rem;
+      border: 0.2rem solid;
+      border-radius: 50%;
+    }
+    #farming dt {
+      margin: 5.4rem 0 0;
+    }
+    #farming dd {
+      font-size: 1.6rem;
+    }
+    @media (max-width : 519px) {
+      #quality h3, #farming h3 {
+        margin-bottom: 1.6rem;
+        font-size: 2.2rem;
+      }
+      #quality h3 span, #farming h3 span {
+        display: block;
+      }
+      #farming h4 {
+        font-size: 1.6rem;
+      }
+    }
